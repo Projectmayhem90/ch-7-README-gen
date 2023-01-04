@@ -61,7 +61,7 @@ function writeToFile(fileName, data) {
     const finalREADME = generateMarkdown(data);
 
     fs.writeFile(fileName, finalREADME, (err) =>
-        err ? console.log(err) : console.log('Your README has been created!'))
+        err ? console.log(err) : console.log('Your README has been created'))
 };
 //Init Function to write text
 function init() {
