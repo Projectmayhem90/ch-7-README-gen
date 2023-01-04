@@ -61,11 +61,11 @@ function writeToFile(fileName, data) {
     const finalREADME = generateMarkdown(data);
 
     fs.writeFile(fileName, finalREADME, (err) =>
-        err ? console.log(err) : console.log('Successfully generated your README!'))
+        err ? console.log(err) : console.log('Your README has been created!'))
 };
-//Init Function
+//Init Function to write text
 function init() {
-    const fileName = 'generatedREADME.md';
+    const fileName = 'genREADME.md';
     inquirer.prompt(questions)
     .then((response) => {
     writeToFile(fileName, response);
