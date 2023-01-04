@@ -6,7 +6,7 @@ This Generator will be used to create a ReadME for any application or software c
 
 # How this Generator works
 
-A.Install a copy of this code.
-B.Incorporate the code within your program or built application 
+1.Install a copy of this code.
+2.Incorporate the code within your program or built application 
 
 
